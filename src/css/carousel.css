@@ -1,0 +1,176 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel {
+    margin: 239px 0 0 0;
+    padding: 101px 154px;
+    background-color: rgba(0, 0, 0, 0.9);
+
+
+}
+.carousel__container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.carousel__top-title {
+    
+}
+.carousel__h1 {
+    font-family: 'neue_free';
+    color: #fff;
+    font-size: 35px;
+    line-height: 37.76px;
+
+}
+.carousel__buttons {
+}
+.carousel__btn-back {
+    margin: 0 10px 0 0;
+}
+.fa-sharp {
+    color: #fff;
+    font-size: 23px;
+
+}
+.fa-solid {
+    font-size: 20px;
+}
+.fa-arrow-left {
+}
+.carousel__btn-forward {
+}
+.fa-arrow-right {
+}
+.carousel__line-block {
+    margin: 3px 0 0 0;
+    background-color: #fff;
+    height: 1px;
+}
+.carousel__h2 {
+    color: #D86642;
+    font-family: 'neue_free';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+}
+.carousel__inner {
+    
+}
+.carousel__item {
+    margin: 0 36px 0 0;
+    text-align: center;
+}
+.carousel__item-box {
+    position: relative;
+    display: inline-block;
+    
+}
+.carousel__item-box:hover .carousel__item-box__hover-title {
+    opacity: 1;
+}
+.carousel__img {
+    transition: all .4s ease;
+    width: 203px;
+}
+.carousel__item-box:hover .carousel__img {
+    filter: brightness(0.5);
+}
+.carousel__item-box__hover-title,
+.carousel__item-box__title {
+    color: #fff;
+}
+.carousel__item-box__title {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 35px;
+    padding: 0 2px;
+    text-align: left;
+    
+}
+.carousel__item-box__hover-title {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-weight: 500;
+    opacity: 0;
+    transition: all .4s ease; 
+}
+
+.carousel__hover-title__main {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+.carousel__hover-title__lower {
+    font-size: 15px;
+}
+
+
+/*--------------------------*/
+.carousel__inner {
+    position: relative;
+}
+.carousel__inner .slick-arrow{
+    position: absolute;
+    right: 0;
+    top: -82px;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+.carousel__inner .slick-arrow.slick-prev{
+    transition: all 0.5s ease;
+    margin: 0 50px 0 0;
+    background: url(../images/icons/arrow-left.svg) 0 0 / 100% no-repeat;
+}
+.carousel__inner .slick-arrow.slick-prev:hover{
+    transform: translateX(-4px);
+    
+}
+
+.carousel__inner .slick-arrow.slick-next{
+    transition: all .5s ease ;
+    background: url(../images/icons/arrow-right.svg) 0 0 / 100% no-repeat;
+}
+.carousel__inner .slick-arrow.slick-next:hover{
+    transform: translateX(4px);
+}
+* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {}
+/* Лента слайдов */
+.slick-track{}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}

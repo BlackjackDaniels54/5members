@@ -1,3 +1,12 @@
+@media(max-width:1130px){
+    .carousel {
+        margin: 239px 0 0 0;
+        padding: 80px 65px !important;
+    }
+    .carousel__img {
+        width: 195px !important;
+    }
+}
 @media(max-width:900px) {
     .section__flex-block {
         display: block;
@@ -11,13 +20,14 @@
 }
 @media(max-width:825px){
     .whoweare__main-content__trace {
-        left: 80px;
+        left: 176px;
     }
     .whoweare__main-content__rocket {
         left: 110px;
     }
     .whoweare__main-content__orange-trace-circle {
-        right: 322px;
+        right: 272px;
+        top: 26px;
     }
     .members-flex__item:first-child {
         padding: 22px 0 22px 250px;
@@ -68,16 +78,30 @@
         left: -3px;
         width: 210px;
         height: 47px;
-
+    }
+    .carousel {
+        margin: 180px 0 0 0 !important;
+    }
+    .carousel__inner {
+        margin: 15px 0 0 0 !important;
+    }
+    .carousel__inner .slick-arrow{
+        width: 20px !important;
+        height: 20px !important; 
+        top: -82px !important;
+    }
+    .carousel__inner .slick-arrow.slick-prev{
+        margin: 0 30px 0 0 !important;
+    }
+    .carousel__h1 {
+        font-size: 20px !important;   
+    }
+    .carousel__h2 {
+        font-size: 15px !important;
+        line-height: 35px !important;
     }
     
 }
-@media (min-device-width: 320px)
-and (max-device-width: 480px){
-
-}
-
-
 
 @media (max-width:550px) {
     .section__container{
@@ -144,25 +168,89 @@ and (max-device-width: 480px){
         display: none;
     }
     .whoweare__main-content__trace {
-        transform: rotate(170deg); 
-        bottom: -40px;
-        left: 130px;
+        left: -39px;
+        top: -179px;
+        transform: rotate(8deg);  
+    }
+    .whoweare__main-content__trace > img {
+        width: 93px;
     }
     .svg {
         filter: brightness(0) ;
+        width: 150px;
     }
     .whoweare__main-content__rocket {
-        bottom: -107px;
-        transform: rotate(163deg);
+        bottom: -291px;
+        transform: rotate(172deg);
+        left: -84px;
     }
-    .whoweare__main-content__rocket > img{
+    .whoweare__main-content__rocket > img {
         transform: rotate(182deg);
     }
-    .whoweare__main-content__blue-diamond.blue_diamond_1,
-    .whoweare__main-content__blue-diamond.blue_diamond_2 {
+    .whoweare__main-content__blue-diamond.blue_diamond_1 {
         display: none;
     }
-    
+    .whoweare__main-content__blue-diamond.blue_diamond_2 {
+        right: -36px;
+        top: 185px;
+    }
+    .whoweare__main-content__blue-diamond.blue_diamond_4 {
+        bottom: 108px;
+        right: 3px;
+    }.whoweare__main-content__blue-diamond.blue_diamond_4 > img{
+        width: 11px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_1 {
+        bottom: 32px;
+        left: -172px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_1 > img {
+        width: 11px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_2 {
+        bottom: -134px;
+        left: -70px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_2 > img{
+        width: 17px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_3 {
+        bottom: 119px;
+        left: -103px;
+    }
+    .whoweare__main-content__orange-diamond.orange_diamond_4{
+        bottom: 205px;
+        left: -39px;
+    }
+    .whoweare__main-content__orange-trace-circle {
+        right: -21px;
+        top: -14px;
+    }
+    .whoweare__main-content__orange-trace-circle > img {
+        width: 9px;
+    }
+    .whoweare__main-content__blue-diamond.blue_diamond_3 {
+        bottom: -52px;
+        left: -61px;
+    }
+    .absolute_elements {
+        position: relative;
+    }
+    .carousel {
+        margin: 239px 0 0 0;
+        padding: 50px 20px !important;
+    }
+    .carousel__img {
+        width: 147px !important;
+    }
+    .carousel__hover-title__main {
+        font-size: 20px !important;
+        margin: 0 0 10px 0 !important;
+    }
+    .carousel__hover-title__lower {
+        font-size: 12px !important;
+        font-weight: 100;
+    }
     /*---------------------------------------*/
     /* Frame container */
     /*---------------------------------------*/
@@ -172,5 +260,11 @@ and (max-device-width: 480px){
     }
 }
 
-
+@media(max-width: 340px) {
+    .carousel__h1 {
+        line-height: 25px !important;
+        max-width: 200px !important;
+        
+    }
+}
 

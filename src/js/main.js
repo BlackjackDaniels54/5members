@@ -77,7 +77,46 @@ hoverlinkConsult.addEventListener('mouseleave', function(e){
     currentlinkConsult.classList.remove('_hover');  
 })
 /*----------------------------------------------*/
-
-/*-----------------SVG setting------------------*/
-
+/* Carousel 
 /*----------------------------------------------*/
+
+$(function(){
+    $('.carousel__inner').slick({
+        slidesToShow:4,
+        speed: 700,
+        centerMode: true,
+        autoplay: true,
+        pauseOnHover:true,
+        
+        touchThreshold:30,
+        waitForAnimate:false, 
+        
+        responsive:[
+            {
+                breakpoint: 1300,
+                settings:{
+                    slidesToShow:3
+                }  
+            },
+            {
+                breakpoint: 870,
+                settings:{
+                    slidesToShow:2
+                }  
+            },
+            {
+                breakpoint: 650,
+                settings:{
+                    centerMode: false,
+                    slidesToShow: 2
+                }  
+            },
+            {
+                breakpoint: 340,
+                settings:{
+                    slidesToShow:1
+                }  
+            }
+        ]
+    });
+})
