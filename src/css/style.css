@@ -19,6 +19,7 @@
 body {
     font-family: 'Inter Tight', sans-serif;
     height: 2500px;
+    margin-right: 0 !important;
     
 }
 body._lock {
@@ -30,10 +31,10 @@ body._lock {
 /*---------------------------------------*/
 /* Header container */
 /*---------------------------------------*/
-.fa-solid {
-    font-size: 12px;
-    position: relative;
-    top: -1px;
+.fa-chevron-right {
+    font-size: 12px !important;
+    position: relative !important;
+    top: -1px !important;
 }
 
 .header {
@@ -465,7 +466,12 @@ body._touch .fa-chevron-right._active{
 .whoweare__main-content__trace {
     position: absolute;
     top: 20px;
-    left: 130px;
+    left: 208px;
+    transform: rotate(13deg);
+}
+.whoweare__main-content__trace > img {
+    position: absolute;
+    
 }
 .whoweare__main-content__rocket {
     position: absolute;
@@ -526,8 +532,8 @@ body._touch .fa-chevron-right._active{
     right: 180px;
 }
 .whoweare__main-content__orange-trace-circle {
-    top: 30px;
-    right: 272px;
+    top: 27px;
+    right: 286px;
 }
 
 
@@ -594,3 +600,8 @@ body._touch .fa-chevron-right._active{
 .orange_bgc_block.orange_5 {
     right: 125px;
 }
+
+
+/*---------------------------------------*/
+/* What we offer*/
+/*---------------------------------------*/
