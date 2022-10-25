@@ -119,4 +119,44 @@ $(function(){
             }
         ]
     });
+<<<<<<< HEAD
 })
+=======
+})
+
+/*----------------------------------------------*/
+/* What we offer btn 
+/*----------------------------------------------*/
+
+
+const gridbtn = document.querySelector('.what-we-offer__grid-btn');
+const hiddenText = document.querySelector('.grid-hidden-text');
+$('.what-we-offer__grid-btn').html('more...');
+$('.what-we-offer__grid-btn').on('click',() => {
+    hiddenText.classList.toggle('active');
+    gridbtn.classList.add('hidden');
+})
+
+const str2 = '<b>Construction</b> of a complete Website with a full customization would help you to show your world.';
+const str = '<b>Landing page</b> or <b>Construction</b> of a complete Website with a full customization would help you to show your product.';
+const block = $('.item01 .what-we-offer__grid-text');
+screenWidth < 650 ? block.html(str) : block.html(str2);
+
+
+
+/*----------------------------------------------*/
+/* Adaptive form button and title
+/*----------------------------------------------*/
+
+const formtitle = $('.contact-form-title');
+const formbtn = $('.contact-form-btn');
+
+screenWidth > 550 ? formbtn.html('Submit') : formbtn.html('I want design!');
+screenWidth > 550 ? formtitle.html('DISCUSS <br> THE PROJECT NOW') : formtitle.html('DISCUSS <br> THE PROJECT');
+
+
+
+  
+
+  
+>>>>>>> c6e3ebc (Full adaptive project)
